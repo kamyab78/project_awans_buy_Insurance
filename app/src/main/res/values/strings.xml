@@ -1,0 +1,16 @@
+<resources>
+    <string name="awans">awans</string>
+    <string name="title_activity_firstpage">firstpage</string>
+    <string name="tab_khodro">خودرو                                  </string>
+    <string name="tab_bime">بیمه                                     </string>
+    <string name="tab_savabegh">سوابق خرید                            </string>
+    <string name="tab_profile">پروفایل                                </string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="spin_noe">نوع خودرو</string>
+    <string name="spin_model">مدل خودرو</string>
+    <string name="spin_karbari">کاربری</string>
+    <string name="spin_color">رنگ خودرو</string>
+
+
+</resources>

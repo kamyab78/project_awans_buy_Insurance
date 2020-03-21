@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.image_car">
+
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="731dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:background="@drawable/top_3"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="10dp"
+            android:translationY="30dp"
+            android:src="@drawable/page_3" />
+
+
+
+        <Button
+            android:id="@+id/edame"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:text="تایید و ادامه "
+            android:background="@android:color/darker_gray"
+            android:translationX="30dp"
+            android:translationY="660dp" />
+
+        <ImageView
+            android:id="@+id/imageView_ro"
+            android:layout_width="391dp"
+            android:layout_height="227dp"
+            android:src="@drawable/ro"
+            android:translationY="150dp"
+            android:translationX="13dp" />
+
+        <ImageView
+            android:id="@+id/imageView_posht"
+            android:layout_width="391dp"
+            android:layout_height="227dp"
+            android:translationX="13dp"
+            android:translationY="395dp"
+            android:src="@drawable/posht" />
+
+        <Button
+            android:id="@+id/aks_ro"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:background="#0000FF"
+            android:text="بارگزاری"
+            android:textColor="#ffffff"
+            android:translationX="100dp"
+            android:translationY="270dp" />
+
+        <Button
+            android:id="@+id/aks_posht"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:background="#0000FF"
+            android:textColor="#ffffff"
+            android:translationX="100dp"
+            android:translationY="520dp"
+            android:text="بارگزاری" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

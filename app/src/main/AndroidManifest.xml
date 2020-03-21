@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.example.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permisson.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/luanch"
+        android:label="@string/awans"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="n">
+        <activity android:name=".activities.last_step"></activity>
+        <activity android:name=".activities.image_car" />
+        <activity
+            android:name=".activities.show_message"
+            android:label="پیام ها" />
+        <activity android:name=".activities.Property_car" />
+        <activity android:name=".activities.new_car_tag" />
+        <activity android:name=".activities.Config_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.profile"
+            android:label="@string/tab_profile" />
+        <activity
+            android:name=".activities.savabegh"
+            android:label="@string/tab_savabegh" />
+        <activity
+            android:name=".activities.bime"
+            android:label="@string/tab_bime" />
+        <activity
+            android:name=".activities.khodro"
+            android:label="@string/tab_khodro" />
+        <activity android:name=".activities.firstpage" />
+        <activity android:name=".activities.Signup" />
+        <activity android:name=".activities.accept_code" />
+        <activity android:name=".accept" />
+        <activity android:name=".activities.create" />
+        <activity android:name=".views.Slideshow" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

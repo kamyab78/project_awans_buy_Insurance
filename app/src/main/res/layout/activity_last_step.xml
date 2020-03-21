@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.last_step">
+
+    <RelativeLayout
+        android:layout_width="412dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/top_4"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:translationY="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/last" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:text="ثبت"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:translationY="650dp"
+            android:translationX="15dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/adad_aval"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:translationX="60dp"
+            android:translationY="235dp" />
+
+        <TextView
+            android:id="@+id/harf"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:translationX="90dp"
+            android:translationY="235dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/adad_dovom"
+            android:layout_width="30dp"
+            android:translationY="235dp"
+            android:translationX="120dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/adad_sevom"
+            android:layout_width="35dp"
+            android:translationY="235dp"
+            android:translationX="160dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/model"
+            android:layout_width="100dp"
+            android:translationX="10dp"
+            android:translationY="282dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/noe"
+            android:layout_width="100dp"
+            android:translationX="10dp"
+            android:translationY="318dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/karbari"
+            android:layout_width="100dp"
+            android:translationY="352dp"
+            android:translationX="10dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/rang"
+            android:layout_width="100dp"
+            android:translationX="10dp"
+            android:translationY="388dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/silandr"
+            android:layout_width="100dp"
+            android:translationY="428dp"
+            android:translationX="10dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/shasi"
+            android:layout_width="100dp"
+            android:translationX="10dp"
+            android:translationY="468dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+     <TextView
+         android:id="@+id/motor"
+         android:layout_width="100dp"
+         android:translationY="508dp"
+         android:translationX="10dp"
+         android:layout_height="wrap_content"
+         />
+
+        <TextView
+            android:layout_width="100dp"
+            android:translationY="542dp"
+            android:layout_height="wrap_content"
+            android:translationX="10dp"
+            android:id="@+id/sal"/>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

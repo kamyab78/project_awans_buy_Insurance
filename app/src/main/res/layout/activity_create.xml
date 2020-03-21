@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.create">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/photo_confirm" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:text="ورود"
+            android:textSize="20dp"
+            android:translationX="159dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:translationY="150dp" />
+
+        <TextView
+            android:layout_width="293dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="شماره تلفن خود را وارد کنید"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:translationX="60dp"
+            android:translationY="170dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="90dp"
+            android:translationY="250dp"
+            android:ems="10"
+            android:hint="09---------"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/edame"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ادامه"
+            android:translationX="90dp"
+            android:translationY="300dp"
+            android:textColor="#ffffff"
+            android:background="#0000FF"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

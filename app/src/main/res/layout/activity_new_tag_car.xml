@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.new_car_tag">
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="734dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/vin_edit"
+            android:layout_width="378dp"
+            android:layout_height="67dp"
+            android:translationY="140dp"
+            android:ems="10"
+            android:translationX="20dp"
+            android:inputType="textPersonName"
+            android:hint="1HGBH41JXMN109186"
+            android:gravity="right"
+            android:maxLength="17"
+            />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="378dp"
+            android:layout_height="67dp"
+            android:translationX="20dp"
+            android:src="@drawable/car_tag"
+            android:translationY="230dp"/>
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView6"-->
+            <!--android:layout_width="378dp"-->
+            <!--android:layout_height="67dp"-->
+            <!--android:translationY="160dp"-->
+            <!--android:translationX="20dp"-->
+            <!--app:srcCompat="@drawable/car_tag" />-->
+
+        <EditText
+            android:id="@+id/nubmer_1"
+            android:layout_width="70dp"
+            android:layout_height="67dp"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="2"
+            android:hint="۳۷"
+            android:gravity="center"
+            android:translationX="80dp"
+            android:translationY="230dp" />
+
+        <EditText
+            android:id="@+id/harf"
+            android:layout_width="70dp"
+            android:layout_height="67dp"
+            android:background="@null"
+            android:translationY="230dp"
+            android:translationX="160dp"
+            android:gravity="center"
+            android:maxLength="1"
+            android:hint="ل"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/number_2"
+            android:layout_width="70dp"
+            android:layout_height="67dp"
+            android:maxLength="3"
+            android:background="@null"
+            android:translationX="220dp"
+            android:translationY="230dp"
+            android:gravity="center"
+            android:hint="۳۹۸"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/number_3"
+            android:layout_width="70dp"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:translationY="230dp"
+            android:maxLength="2"
+            android:hint="۱۱"
+            android:gravity="center"
+            android:background="@null"
+            android:translationX="320dp"
+            android:inputType="textPersonName"
+             />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/first_new_car"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="تایید و ادامه"
+            android:translationX="20dp"
+            android:background="@android:color/darker_gray"
+            android:translationY="620dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="130dp"
+            android:translationX="350dp"
+            android:text="شماره vin" />
+
+        <!--<com.kofigyan.stateprogressbar.StateProgressBar-->
+            <!--android:id="@+id/your_state_progress_bar_id"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:spb_animateToCurrentProgressState="true"-->
+            <!--app:spb_checkStateCompleted="true"-->
+            <!--app:spb_currentStateDescriptionColor="#009688"-->
+            <!--app:spb_currentStateNumber="three"-->
+            <!--app:spb_maxStateNumber="four"-->
+            <!--app:spb_stateBackgroundColor="#BDBDBD"-->
+            <!--app:spb_stateDescriptionColor="#808080"-->
+            <!--app:spb_stateForegroundColor="#009688"-->
+            <!--app:spb_stateNumberBackgroundColor="#808080"-->
+            <!--app:spb_stateNumberForegroundColor="#eeeeee" />-->
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

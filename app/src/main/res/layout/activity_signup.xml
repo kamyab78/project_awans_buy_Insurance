@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Signup">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/image_new" />
+
+        <EditText
+            android:id="@+id/edite_code_melli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:translationY="310dp"
+            android:translationX="110dp"
+            android:inputType="textPersonName"
+            android:hint="کد ملی" />
+
+        <EditText
+            android:id="@+id/edite_family"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:translationX="110dp"
+            android:translationY="210dp"
+            android:inputType="textPersonName"
+            android:hint="نام خانوادگی" />
+
+        <EditText
+            android:id="@+id/edite_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="نام"
+            android:translationX="110dp"
+            android:translationY="140dp"
+            android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/edite_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="110dp"
+            android:hint="ایمیل (اختیاری)"
+            android:ems="10"
+            android:translationY="410dp"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ثبت نام"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:translationX="175dp"
+            android:translationY="120dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-4dp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:translationX="90dp"
+            android:background="#0000FF"
+            android:translationY="510dp"
+            android:text="ثبت"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

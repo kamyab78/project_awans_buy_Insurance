@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Property_car">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:background="@drawable/property"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/number1"
+        android:layout_width="378dp"
+        android:layout_height="67dp"
+        android:translationY="140dp"
+        android:translationX="20dp"
+        android:src="@drawable/car_tag" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:translationX="320dp"
+        android:translationY="229dp"
+        android:layout_height="wrap_content"
+        android:text="نوع خودرو" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:translationY="309dp"
+        android:layout_height="wrap_content"
+        android:translationX="320dp"
+        android:text="مدل خودرو" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:translationX="350dp"
+        android:translationY="389dp"
+        android:layout_height="wrap_content"
+        android:text="کاربری" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:translationY="469dp"
+        android:layout_width="wrap_content"
+        android:translationX="320dp"
+        android:layout_height="wrap_content"
+        android:text="رنگ خودرو" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="320dp"
+        android:translationY="549dp"
+        android:text="تعداد سیلندر" />
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="70dp"
+        android:background="@null"
+        android:translationX="80dp"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:translationY="140dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/alef"
+        android:layout_width="70dp"
+        android:background="@null"
+        android:translationX="160dp"
+        android:gravity="center"
+        android:translationY="140dp"
+        android:layout_height="67dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="70dp"
+        android:translationY="140dp"
+        android:background="@null"
+        android:translationX="220dp"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/iran"
+        android:layout_width="70dp"
+        android:translationY="140dp"
+        android:translationX="320dp"
+        android:gravity="center"
+        android:background="@null"
+        android:layout_height="67dp"
+        android:text="" />
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_noe"-->
+    <!--android:layout_width="368dp"-->
+    <!--android:background="@null"-->
+
+    <!--android:layout_height="64dp"-->
+    <!--android:drawableLeft="@drawable/fl"-->
+
+    <!--android:translationX="20dp"-->
+    <!--android:translationY="230dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_model"-->
+    <!--android:layout_width="368dp"-->
+    <!--android:background="@null"-->
+    <!--android:translationX="20dp"-->
+    <!--android:layout_height="64dp"-->
+    <!--android:translationY="310dp"-->
+    <!--/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_carbari"-->
+    <!--android:layout_width="368dp"-->
+    <!--android:layout_height="64dp"-->
+    <!--android:translationX="20dp"-->
+    <!--android:background="@null"-->
+    <!--android:translationY="390dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_color"-->
+    <!--android:layout_width="368dp"-->
+    <!--android:translationX="20dp"-->
+    <!--android:layout_height="64dp"-->
+    <!--android:background="@null"-->
+    <!--android:translationY="470dp"-->
+    <!--/>-->
+
+    <Button
+        android:id="@+id/btn_taeed"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="تایید و ادامه"
+        android:translationX="20dp"
+        android:translationY="620dp" />
+
+
+    <EditText
+        android:id="@+id/silandr"
+        android:layout_width="368dp"
+        android:layout_height="64dp"
+        android:translationY="550dp"
+        android:translationX="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Spinner
+        android:layout_width="368dp"
+        android:layout_height="64dp"
+        android:id="@+id/spin_noe"
+        android:translationX="20dp"
+        android:textAlignment="gravity"
+        android:gravity="right"
+        android:layout_gravity="right"
+
+        android:translationY="230dp"
+        android:prompt="@string/spin_noe"
+        >
+
+    </Spinner>
+    <Spinner
+        android:layout_width="368dp"
+        android:layout_height="64dp"
+        android:id="@+id/spin_model"
+        android:translationX="20dp"
+        android:translationY="310dp"
+        android:layout_gravity="right"
+
+        >
+
+    </Spinner>
+    <Spinner
+        android:layout_width="368dp"
+        android:layout_height="64dp"
+        android:id="@+id/spin_carbari"
+        android:layout_alignParentRight="true"
+        android:translationX="20dp"
+        android:translationY="390dp">
+
+    </Spinner>
+    <Spinner
+        android:layout_width="368dp"
+        android:layout_height="64dp"
+        android:id="@+id/spin_color"
+        android:translationX="20dp"
+        android:layout_alignParentRight="true"
+        android:translationY="470dp">
+
+    </Spinner>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.accept_code">
+
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tea"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="ورود کد تائید"
+            android:translationX="129dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:translationY="150dp"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="16dp" />
+        <TextView
+            android:id="@+id/txt_shomare"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="کد ارسال شده را وارد کنید"
+            android:translationX="110dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:translationY="200dp"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="16dp" />
+        <EditText
+            android:id="@+id/submit_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:translationX="100dp"
+            android:translationY="250dp"
+            android:inputType="textPersonName"
+            android:hint="        -   -   -  -   -   -   "
+            />
+        <TextView
+            android:id="@+id/txtv"
+            android:translationX="190dp"
+            android:translationY="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:00" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:translationX="240dp"
+            android:translationY="290dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="ارسال مجدد کد" />
+
+        <Button
+            android:id="@+id/btn_vorod"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="ورود"
+            android:translationX="50dp"
+            android:background="#0000FF"
+        android:textColor="#ffffff"
+            android:translationY="350dp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
